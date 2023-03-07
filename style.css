@@ -1,0 +1,99 @@
+* {
+    list-style-type: none;
+}
+
+header img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+header ul {
+    gap: 20px;
+}
+
+header a {
+    font-weight: bold;
+}
+
+header a {
+    color: black;
+    display: block;
+}
+
+header a:hover {
+    color: green;
+}
+
+header ul {
+    margin-top: 10px;
+}
+
+section button a {
+    font-weight: bold;
+    color: white;
+}
+
+section button {
+    border: none;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+section button a:hover {
+    color: white;
+}
+
+section h2 {
+    margin-top: 100px;
+}
+
+section img {
+    border-radius: 5px;
+}
+
+#join i {
+    margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+    header img {
+        width: 20px;
+        height: 20px;
+    }
+
+    header a {
+        font-size: 10px;
+    }
+
+    header ul {
+        gap: 10px;
+    }
+
+    section button {
+        width: 100px;
+        height: 30px; 
+        margin-top: 0px;
+    }
+
+    section button a {
+        font-weight: bold;
+        font-size: 10px;
+        color: white;
+    }
+
+    section h2 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    section p {
+        font-size: 10px;
+    }
+
+    #players img {
+        width: 200px;
+    }
+}
